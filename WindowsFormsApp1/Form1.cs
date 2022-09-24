@@ -15,11 +15,20 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            var b = "saman";
+         
+            button1.Visible = false;
+            
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
