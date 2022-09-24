@@ -15,9 +15,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            var b = "saman";
-         
-            button1.Visible = true;
+          
             
         }
 
