@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             var b = "saman";
          
-            button1.Visible = false;
+            button1.Visible = true;
             
         }
 
@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+           button1.Visible = false;
         }
     }
 }
